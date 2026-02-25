@@ -1,0 +1,7 @@
+torch=2.0.0+cu118
+torch-geometric=2.5.2
+torch-scatter=2.1.2+pt20cu118
+tqdm==4.65.0
+numpy==1.23.5
+networkx==2.8.8
+pandas==2.0.3
