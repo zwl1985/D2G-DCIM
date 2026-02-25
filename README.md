@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository provides the implementation of the paper **"D2G-DCIM: A Deep Reinforcement Learning and Graph Neural Network-Driven Model for Dynamic Competitive Influence Maximization."** The project focuses on solving competitive influence maximization problems in dynamic temporal graphs using deep reinforcement learning techniques.
+This repository provides the implementation of the paper **"D2G-DCIM: A Deep Reinforcement Learning and Graph Neural Network-Driven Model for Dynamic Competitive Influence Maximization."**
 
 ## Project Structure
 
