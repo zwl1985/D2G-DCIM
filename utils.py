@@ -168,7 +168,8 @@ def edge_process(edge_index, w, t, at, aggr_direction):
     else:
         raise ValueError
     edge_index_selected = edge_index[:, mask]
-    edge_index_coalesce, attr = coalesce(edge_index_selected, torch.cat([w, t], dim=1), at.shape[0], reduce=reduce)
+    w_selected, t_selected = w[mask], t[mask]
+    edge_index_coalesce, attr = coalesce(edge_index_selected, torch.cat([w_selected, t_selected], dim=1), at.shape[0], reduce=reduce)
     w_coalesce = attr[:, 0:1]
     t_coalesce = attr[:, 1]
     return edge_index_coalesce, w_coalesce, t_coalesce
