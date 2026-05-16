@@ -68,7 +68,20 @@ Configure test parameters in the script:
 
 ## Citation
 
-If you use this code in your research, please cite the original paper (citation to be added when available).
+If you use this code in your research, please cite the original paper.
+```bash
+@article{ZHANG2026116179,
+title = {D2G-DCIM: A deep reinforcement learning and graph neural network-driven model for dynamic competitive influence maximization},
+journal = {Knowledge-Based Systems},
+volume = {346},
+pages = {116179},
+year = {2026},
+issn = {0950-7051},
+doi = {https://doi.org/10.1016/j.knosys.2026.116179},
+url = {https://www.sciencedirect.com/science/article/pii/S0950705126009056},
+author = {Kaijing Zhang and Wenlong Zhu and Jiahui Zhong and Youruo Wang and Yukun Ma and Qiaoyan Song and Shuangshuang Yang},
+}
+```
 
 ## License
 
